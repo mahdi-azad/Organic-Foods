@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+.hero {
+    background-image: url('images/hero-banner.png');
+    background-size: cover;                     
+    background-repeat: no-repeat;
+    background-position: center center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.hero__container {
+    // height: 500px;
+    width: 70%;
+    margin: 0 auto;
+    font-family: 'Roboto';
+    padding-top: 50px;
+    color: #212429;
+}
+.hero__container-title {
+    font-size: 1.5rem;
+    width: 50%;
+}
+.hero__container-text {
+    width: 50%;
+    margin-top: 30px;
+    line-height: 1.8rem;
+}
+.hero__container--button button{
+    margin-top: 20px;
+    background-color: #7DC002;
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+    font-size: 1.2rem;
+    border: none;
+    cursor: pointer;
+    color: white;
+    margin-bottom: 100px;
+}

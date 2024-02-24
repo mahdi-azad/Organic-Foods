@@ -1,0 +1,134 @@
+.footer {
+    background-color: #2C2C2C;
+    margin-top: 30px;
+    padding-top: 30px;
+}
+.footer__container {
+    width: 70%;
+    margin: 0 auto;
+    font-family: 'Roboto';
+    letter-spacing: 1.2px;
+    padding-bottom: 20px;
+}
+.footer__container-info {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgb(197, 197, 197);
+    margin-bottom: 20px;
+}
+.footer__container-info-item:nth-child(1) {
+    width: 26%;
+    // border: 1px solid white;
+}
+.footer__container-info-item h5 {
+    color: white;
+    justify-content: left;
+    font-weight: 400;
+}
+.footer__container-info-item p {
+    color: rgb(193, 192, 192);
+    font-size: 11px;
+}
+.footer__container-info-item:nth-child(2) {
+    width: 12%;
+    display: flex;
+    flex-direction: column;
+    // border: 1px solid white;
+    
+}
+.footer__container-info-item:nth-child(2) ul {
+    margin-left: 13px;
+    font-size: 0.75rem;
+    color: rgb(193, 192, 192);
+    margin-top: 20px;
+}
+.footer__container-info-item:nth-child(2) li {
+    margin-bottom: 10px;
+}
+.footer__container-info-item:nth-child(3) {
+    width: 26%;
+    // border: 1px solid white;
+}
+.footer__container-info-ig {
+    color: #7DC002;
+    margin-top: 20px;
+}
+.footer__container-info-item:nth-child(4) {
+    width: 26%;
+    // border: 1px solid white;
+    display: grid;
+    grid-template-columns: repeat(1fr 4);
+}
+.footer__container-info-icon {
+    color: #7DC002;
+}
+.footer-stock-img {
+    width: 200px;
+}
+.footer__container-links {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.footer__container-links-socials {
+    display: flex;
+}
+.socials-icons {
+    border-radius: 50%;
+    padding: 5px;
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+}
+.facebook {
+    @extend .socials-icons;
+    background-color: #3D5A97;
+}
+.twitter {
+    @extend .socials-icons;
+    background-color: #2AA7E1;
+}
+.instagram {
+    @extend .socials-icons;
+    background-color: #10527B;
+}
+.googleplus {
+    @extend .socials-icons;
+    background-color: #FD6C02;
+}
+.pinterest {
+    @extend .socials-icons;
+    background-color: #FE2122;
+}
+.footer__container-links-payment {
+    display: flex;
+}
+.payment-icons {
+    border-radius: 50%;
+    padding: 5px;
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+}
+.paypal {
+    @extend .payment-icons;
+    background-color: blue;
+}
+.mastercard {
+    @extend .payment-icons;
+    background: red;
+}
+.footer__footer {
+    background-color: #1E1E1E;
+}
+.footer__footer-container {
+    width: 70%;
+    margin: 0 auto;
+    font-family: 'Roboto';
+    color: rgb(193, 192, 192);
+    padding: 20px 0px 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.75rem;
+}

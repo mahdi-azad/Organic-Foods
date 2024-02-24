@@ -1,0 +1,28 @@
+.services__container {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    font-family: 'Roboto';
+}
+.services__container-item {
+    background-color: #F7F5F8;
+    border-radius: 50%;
+    width: 140px;
+    height: 140px;
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+    grid-template-rows: 1fr;
+    text-align: center;
+}
+.services__container-item img {
+    width: 40px;
+    // margin-left: 35px;
+    // margin-top: 15px;
+}
+.services__container-item p {
+    font-size: 0.75rem;
+    margin-bottom: 30px;
+}
