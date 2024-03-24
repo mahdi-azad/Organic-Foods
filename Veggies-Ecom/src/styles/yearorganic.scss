@@ -1,0 +1,27 @@
+.year-container {
+    margin-top: 40px;
+    width: 700px;
+    height: 500px;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 60px;
+    padding: 50px;
+    background-image: url('images/yearorganic.png');
+    background-size: cover;                     
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: center;
+    font-family: 'Roboto';
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.year-container_text {
+    text-align: center;
+    line-height: 25px;
+    color: lightcoral;
+    h1 {
+        margin-bottom: 30px;
+    }
+    p {
+        font-size: 1.5rem;
+    }
+}

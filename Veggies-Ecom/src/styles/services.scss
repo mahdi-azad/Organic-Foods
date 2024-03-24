@@ -26,3 +26,77 @@
     font-size: 0.75rem;
     margin-bottom: 30px;
 }
+.services_first_map {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 30px;
+    font-family: 'Roboto';
+}
+.services_first_map-header {
+    // margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.services_first_map-header button {
+    background-color: #7DC002;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid black;
+    font-size: 1rem;
+    cursor: pointer;
+    color: white;
+}
+.services_first_map-display {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.services_first_map-display-item {
+    background-color: #F7F5F8;
+    margin: 10px;
+    border-radius: 8px;
+    padding: 10px;
+    padding-top: 35px;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid rgb(227, 227, 227);
+    position: relative;
+}
+.services_first_map-display-item p {
+    text-align: left;
+}
+
+.services_first_map-display-item:hover {
+    background-color: #c8ff62;
+    transition: background-color 0.5s ease;
+}
+.services_first_map-name {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.services_first_map-rating {
+    font-weight: 400;
+    font-size: 0.8em;
+    color: gray;
+}
+.services_first_map-prev-price {
+    text-decoration: line-through;
+    color: gray;
+    font-size: 0.9em;
+}
+.services_first_map-price {
+    color: #7DC002;
+    font-weight: bold;
+    font-size: 1.0em;
+}
+.discount {
+    position: absolute;
+    top: 10px; /* Adjust top position as needed */
+    right: 10px; /* Adjust right position as needed */
+    background-color: red;
+    border-radius: 8px;
+    color: white;
+    font-size: 0.7em;
+    padding: 5px;
+  }

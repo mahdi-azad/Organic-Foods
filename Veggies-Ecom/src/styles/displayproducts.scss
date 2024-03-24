@@ -1,0 +1,114 @@
+.displayProducts_container {
+    width: 70%;
+    margin: 0 auto;
+    // display: flex;
+    // justify-content: space-between;
+    margin-top: 50px;
+    font-family: 'Roboto';
+   
+}
+.displayProducts_header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.displayProducts_header-buttons {
+    
+    display: flex;
+    align-items: center;
+}
+.displayProducts_header-buttons a {
+    text-decoration: none;
+    color: white;
+}
+.displayProducts_button-item a {
+    text-decoration: none;
+    color: white;
+}
+.displayProducts_button-item {
+    color: white;
+    background-color: #7DC002;
+    padding: 10px;
+    border-radius: 30px;
+    margin: 0px 10px 0px 10px;
+    border: 1px solid gray;
+    cursor: pointer;
+}
+
+.active {
+    color: white;
+    background-color: #7DC002;
+    padding: 10px;
+    border-radius: 30px;
+    margin: 0px 10px 0px 10px;
+    border: 1px solid gray;
+    cursor: pointer;
+}
+.inactive {
+    color: gray;
+    background-color: rgb(184, 184, 184);
+    padding: 10px;
+    border-radius: 30px;
+    margin: 0px 10px 0px 10px;
+    border: 1px solid gray;
+    cursor: pointer;
+}
+.displayProducts_button-item:hover {
+    background-color: #4c661d;
+    transition: background-color 0.5s ease;
+}
+.display_item {
+    background-color: #F7F5F8;
+    margin: 10px;
+    border-radius: 8px;
+    padding: 10px;
+    padding-top: 35px;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid rgb(227, 227, 227);
+    position: relative;
+    display: flex;
+}
+.display_item:hover {
+    background-color: #c8ff62;
+    transition: background-color 0.5s ease;
+}
+.display-stack {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr
+}
+.display_item-name {
+    font-weight: 500;
+    font-size: 1.2em;
+}
+.display-text-items p {
+    margin: 5px;
+}
+.display_item-rating {
+    font-weight: 400;
+    font-size: 0.8em;
+    color: gray;
+}
+.display_item-prev-price {
+    text-decoration: line-through;
+    color: gray;
+    font-size: 0.9em;
+}
+.display_item-price {
+    color: #7DC002;
+    font-weight: bold;
+    font-size: 1.0em;
+}
+.display-text-items {
+    text-align: left;
+    margin-left: 10px;
+}
+.discount {
+    position: absolute;
+    top: 10px; /* Adjust top position as needed */
+    right: 10px; /* Adjust right position as needed */
+    background-color: red;
+    border-radius: 8px;
+    color: white;
+    font-size: 0.7em;
+    padding: 5px;
+  }

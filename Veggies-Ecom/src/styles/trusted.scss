@@ -1,0 +1,34 @@
+.trusted {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    margin-top: 40px;
+    height: 500px;
+    align-items: center;
+    background-image: url('images/trusted.png');
+    background-size: cover;                     
+    background-repeat: no-repeat;
+    background-position: center center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.trusted_text {
+    color: lightgoldenrodyellow;
+    line-height: 35px;
+    font-family: 'Roboto';
+    padding: 30px;
+    h1 {
+        font-size: 2rem;
+    }
+    p {
+        font-size: 1.2rem;
+    }
+}
+.sign-up {
+    font-size: 20px;
+    margin-top: 20px;
+    background-color: green;
+    border-radius: 8px;
+    color: white;
+    padding: 5px;
+    border: 1px solid gray;
+    cursor: pointer;
+}

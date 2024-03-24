@@ -7,7 +7,7 @@ const products = [
         stars: 4.6,
         discount: "-17%",
         type: "vegetable",
-        image: "/images/all-products/veg2.png"
+        image: "/images/services/bell-pepper.png"
     },
     {
         id: 2,
@@ -17,7 +17,7 @@ const products = [
         stars: 4.5,
         discount: "-17%",
         type: "vegetable",
-        image: ""
+        image: "/images/services/carrot.png"
     },
     {
         id: 3,
@@ -27,7 +27,7 @@ const products = [
         stars: 4.2,
         discount: "-13%",
         type: "vegetable",
-        image: ""
+        image: "/images/services/broccoli.png"
     },
     {
         id: 4,
@@ -37,7 +37,7 @@ const products = [
         stars: 4.0,
         discount: "-25%",
         type: "vegetable",
-        image: ""
+        image: "/images/services/tomato.png"
     },
     {
         id: 5,
@@ -47,7 +47,7 @@ const products = [
         stars: 4.1,
         discount: "-17%",
         type: "vegetable",
-        image: ""
+        image: "/images/services/cucumber.png"
     },
     {
         id: 6,
@@ -57,7 +57,7 @@ const products = [
         stars: 4.3,
         discount: "-17%",
         type: "vegetable",
-        image: ""
+        image: "/images/services/spinach.png"
     },
     {
         id: 7,
@@ -67,7 +67,7 @@ const products = [
         stars: 5,
         discount: "-17%",
         type: "fruit",
-        image: "/images/all-products/fruit2.png"
+        image: "/images/services/apple.png"
     },
     {
         id: 8,
@@ -77,7 +77,7 @@ const products = [
         stars: 4.1,
         discount: "-22%",
         type: "fruit",
-        image: "/images/all-products/veg2.png"
+        image: "/images/services/banana.png"
     },
     {
         id: 9,
@@ -87,7 +87,7 @@ const products = [
         stars: 4.4,
         discount: "-17%",
         type: "fruit",
-        image: "/images/all-products/veg2.png"
+        image: "/images/services/orange.png"
     },
     {
         id: 10,
@@ -97,7 +97,7 @@ const products = [
         stars: 4.2,
         discount: "-18%",
         type: "fruit",
-        image: "/images/all-products/veg2.png"
+        image: "/images/services/grapes.png"
     },
     {
         id: 11,
@@ -107,7 +107,7 @@ const products = [
         stars: 4.6,
         discount: "-20%",
         type: "fruit",
-        image: "/images/all-products/veg2.png"
+        image: "/images/services/pear.png"
     },
     {
         id: 12,
@@ -117,7 +117,7 @@ const products = [
         stars: 4.3,
         discount: "-17%",
         type: "fruit",
-        image: "/images/all-products/veg2.png"
+        image: "/images/services/pineapple.png"
     },
     {
         id: 13,
@@ -127,7 +127,7 @@ const products = [
         stars: 4.2,
         discount: "-20%",
         type: "bread",
-        image: "/images/all-products/veg2.png"
+        image: "/images/services/whole-wheat.png"
     },
     {
         id: 14,
@@ -137,7 +137,7 @@ const products = [
         stars: 4.5,
         discount: "-12.50%",
         type: "bread",
-        image: "/images/all-products/veg2.png"
+        image: "/images/services/multigrain.png"
     },
     {
         id: 15,
@@ -147,7 +147,7 @@ const products = [
         stars: 4.3,
         discount: "-17%",
         type: "bread",
-        image: "/images/all-products/veg2.png"
+        image: "/images/services/sourdough.png"
     },
     {
         id: 16,
@@ -157,7 +157,7 @@ const products = [
         stars: 4.0,
         discount: "-17%",
         type: "bread",
-        image: "/images/all-products/veg2.png"
+        image: "/images/services/whitebread.png"
     },
     {
         id: 17,
@@ -167,7 +167,7 @@ const products = [
         stars: 4.4,
         discount: "-18%",
         type: "bread",
-        image: "/images/all-products/veg2.png"
+        image: "/images/services/rye-bread.png"
     },
     {
         id: 18,
@@ -177,7 +177,7 @@ const products = [
         stars: 4.1,
         discount: "-17%",
         type: "bread",
-        image: "/images/all-products/veg2.png"
+        image: "/images/services/bagguette.png"
     }
 ]
 
